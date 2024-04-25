@@ -29,9 +29,6 @@ rm -rf hardware/mediatek
 if [ ! -d "hardware/mediatek" ]; then
     mkdir -p hardware/mediatek
     git clone https://github.com/LineageOS/android_hardware_mediatek.git -b lineage-21 hardware/mediatek
-    cd device/mediatek/sepolicy_vndr
-    wget https://gist.github.com/EvilAnsh/b50c5ee320ee21aca61b8120daf6b7e6/raw/86cd85c78dd18585542f50726fde1f89bf2accc9/SEPolicy.patch && git am *.patch
-    cd - 
 fi
 
 echo 'Cloning Hardware Oplus [5/5]' 
