@@ -22,7 +22,6 @@ PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme 7/Narzo 20 Pro/Narzo 30 4G
 
 # RisingOS flags
-WITH_GMS := true
 PRODUCT_NO_CAMERA := false
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
 TARGET_ENABLE_PIXEL_FEATURES := true
