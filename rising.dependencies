@@ -7,8 +7,8 @@
   },
   {
     "remote"      : "github",
-    "repository"  : "LineageOS/android_hardware_mediatek",
-    "branch"      : "lineage-21",
+    "repository"  : "YAAP/hardware_mediatek",
+    "branch"      : "fifteen",
     "target_path" : "hardware/mediatek"
   },
   {
@@ -19,14 +19,14 @@
   },
   {
     "remote"      : "github",
-    "repository"  : "LineageOS/android_device_mediatek_sepolicy_vndr",
-    "branch"      : "lineage-21",
+    "repository"  : "YAAP/device_mediatek_sepolicy_vndr",
+    "branch"      : "fifteen",
     "target_path" : "device/mediatek/sepolicy_vndr"
   },
   {
     "remote"      : "github",
-    "repository"  : "LineageOS/android_hardware_oplus",
-    "branch"      : "lineage-21",
+    "repository"  : "YAAP/hardware_oplus",
+    "branch"      : "fifteen",
     "target_path" : "hardware/oplus"
   }
 ]
